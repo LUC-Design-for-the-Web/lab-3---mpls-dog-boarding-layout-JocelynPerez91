@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8662030&assignment_repo_type=AssignmentRepo)
 # Directions
 
 Listed below is an image of the completed interface for MPLS Dog Boarding website.  Complete the 12 steps below to achieve the desired design and layout of MPLS Dog boarding homepage.  This lab will focus on CSS Layout Methodologies and will include color, graphics and typography concepts we covered in class. 
