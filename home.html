@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--Jocelyn Perez-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="MPLS Dogboarding Site">
+    <meta name="keywords" content="dogs, boarding, pet, services">
+    <meta name="author" content="Jocelyn Perez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPLS Dogboarding </title>
+    <style>
+        #container {
+            display: grid;
+            width: 100vw;
+            height: 100vh;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 105px auto 15%;
+        }
+
+        header img {
+            display: block;
+            width: 20%;
+            margin: auto;
+        }
+        #container header {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        #flexcontainer {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            display:flex;
+            flex-wrap: wrap;
+            width: 100%;
+            background-image: url(./img/dog_bg.jpeg);
+            background-size: 100%;
+            background-position: center;
+        }
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            padding-top: 40px;
+        }
+        #flexcontainer > aside {
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: 325px;
+            height:350px;
+            border: 2px solid purple;
+            padding: 10px;
+            margin: 4% 2%;
+            background-color: #ffffffcf;
+            border-radius: 10px;   
+        }
+        body{
+            font-family: 'Montserrat', sans-serif;
+            margin:0;
+        }
+        footer div{
+            width:275px;
+            margin:auto;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img src="./img/mpls_dog_logo.png" alt="Dog looking back at MPLS Logo">
+        </header>
+        <main id="flexcontainer">
+            <aside>
+                <h2>About Us</h2>
+                <p>Quality dog care service - The luxury hotel for dogs!</p>
+            </aside>
+            <aside>
+                <h2>Price</h2>
+                <h3>Weekly Boarding</h3>
+                <p>$425 - 7 days [24 hours from drop-off time] </li>
+                <h3>Daily Rate: </h3>
+                <p>$75 - 1 day [24 hours from drop-off time</p>
+
+                </ul>
+            </aside>
+            <aside>
+                <h2>Hours of Operation</h2>
+                <ul>
+                    <li>Monday: - 7am - 6pm</li>
+                    <li>Tuesday: - 7am - 6pm</li>
+                    <li>Wednesday: - 7am - 6pm</li>
+                    <li>Thursday: 7am - 6pm</li>
+                    <li>Friday:</li>
+                </ul>
+            </aside>
+        </main>
+        <footer>
+            <div id="copyright"> &#169; 2019 - 2023 MPLS Dogboarding</div>
+        </footer>
+    </div>
+</body>
+
+</html>
